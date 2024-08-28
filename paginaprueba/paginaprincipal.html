@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDEC Instituto Departamental Evangelico Centroamericano</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img idec/logoidec.jpg">
+</head>
+<body class="body-principal">
+
+    <nav>
+        
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="http://127.0.0.1:5500/Idec%20y%20cata.html">VOLVER AL MENU</a>
+            </li> 
+            <li class="menu-item">
+                <a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/paginaprincipal.html">Inicio</a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="#">¿QUIENES SOMOS?</a>
+                <ul class="submenu">
+                    <li><a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/historia.html">Historia</a></li>
+                    <li><a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/misionyvision.html">Mision y Vision</a></li>
+                    <li><a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/galeria%202.html">Galeria</a></li>
+
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#">CARRERAS</a>
+                <ul class="submenu">
+                    <li><a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/encuesta.html">TEST VOCACIONAL</a></li> 
+                    <li><a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/btpinformatica.html">BTP INFORMATICA</a></li>
+                    <li><a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/btpconta.html">BTP CONTADURIA Y FINANZAS</a></li>
+                    <li><a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/btpadmin.html">BTP ADMINISTRACION DE EMPRESAS</a></li>
+                    <li><a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/bch.html">BCH CIENCIAS Y HUMANIDADES</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/actividades.html">Actividades</a>
+            </li>
+            <li class="menu-item">
+                <a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/celebracionesciv.html">Celebraciones Civicas</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="seccion-logo"> 
+        <a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/paginaprincipal.html"><img  class="logo-idec"  src="img idec/Logoidec2.0.jpg"></a>
+        <p class="formando-gen">¡Formando Generaciones con la mente de Cristo!</p>
+    </div>
+    <div>
+        <style>
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.slider-frame {
+	width: 90%;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+
+	width: 100%;
+    height: 850px;
+    border: none;
+    border-style: none;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+        </style>
+        <div class="slider-frame">
+            <ul>
+                <li><img src="img idec\fotos nuevassss\WhatsApp Image 2024-08-13 at 14.00.51 (2).jpeg" alt=""></li>
+                <li><img src="img idec/GRADU2.jpg" alt=""></li>
+                <li><img src="img idec\fotos nuevassss\WhatsApp Image 2024-08-13 at 13.58.03 (1).jpeg" alt=""></li>
+                <li><img src="img idec/GRADUANDOS.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+
+    </div>
+
+        <style>
+/*Cards*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 80%;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.card{
+	width: 150%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+/*FIN*/
+        </style>
+ <div class="fondotit-act" >
+    <center><h1 class="titulo-cv" >TE OFRECEMOS CARRERAS COMO</h1></center>
+</div>
+    <div class="container-card">
+        
+    <div class="card">
+        <figure>
+            <img src="img idec/logos carreras/INFO.png">
+        </figure>
+      
+        <div class="contenido-card">
+            <h3>BTP EN INFORMATICA</h3>
+            <p>Aprende sobre desarrollo de paginas web, Mantenimiento a equipos informaticos como pc, laptops, impresoras y mas. asi como tambien Redes informaticas y Diseño grafico.</p>
+            <a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/btpinformatica.html">Leer Màs</a>
+        </div>
+    </div>
+    <div class="card">
+        <figure>
+            <img src="img idec/logos carreras/CONTADURIA.png">
+        </figure>
+        <div class="contenido-card">
+            <h3>BTP EN CONTADURIA Y FINANZAS</h3>
+            <p>Aprende estudiando los conceptos de economía y administración para su aplicación en obtención de recursos financieros de las personas, empresas o estados; además mide y analiza la situación económica de una organización.</p>
+            <a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/btpconta.html">Leer Màs</a>
+        </div>
+    </div>
+    <div class="card">
+        <figure>
+            <img src="img idec/logos carreras/ADMINISTRACION Ç.png">
+        </figure>
+        <div class="contenido-card">
+            <h3>BTP EN ADMINISTRACION DE EMPRESAS</h3>
+            <p>Aprende a desempeñarte en diversos campos relacionados con la administración, como algunos ejemplos: recursos humanos, mercadotecnia, gestión de la calidad, tecnología administrativa y muchos otros mas..</p>
+            <a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/btpadmin.html">Leer Màs</a>
+        </div>
+    </div>
+    <div class="card">
+        <figure>
+            <img src="img idec/logos carreras/BCH.png">
+        </figure>
+        <div class="contenido-card">
+            <h3>BCH EN CIENCIAS Y HUMANIDADES</h3>
+            <p>Aprende en está carrera orientada a capacitar al estudiante en las áreas de las ciencias naturales, matemáticas, química y física  elemental. Además obtendrá un amplio conocimiento  de las ciencias sociales y del uso y aplicación correcta de la expresión oral y escrita del lenguaje.</p>
+            <a href="http://localhost:8088/Idec%20y%20cata/paginaprueba/bch.html">Leer Màs</a>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+<div><style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+    .fondotit-act{
+    background-color: #ce2727;
+    color: aliceblue; }
+    
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+        text-align: center;
+        color: #3f51b5;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    
+    form {
+        margin-top: 20px;
+        margin-left: 15%;
+        width: 65%;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #333;
+        font-size: 27px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    select,
+    textarea {
+        width: calc(100% - 20px);
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #e3f2fd;
+        color: #333;
+    }
+    
+    input[type="submit"] {
+        background-color: #ce2727;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #ce2727;
+    }
+    
+    .checkbox-container {
+        margin-bottom: 15px;
+    }
+    
+    .checkbox-label {
+        display: inline-block;
+        margin-right: 10px;
+        color: #333;
+    }
+    
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-right: 10px;
+    }
+    
+    select {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-color: #e3f2fd;
+        background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18px" height="18px"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>');
+        background-repeat: no-repeat;
+        background-position-x: calc(100% - 10px);
+        background-position-y: center;
+        padding-right: 40px;
+    }
+    
+    /* Colores personalizados */
+    .container {
+        background-color: #e3f2fd;
+    }
+    
+    h2 {
+        color: #1c2765;
+    }
+    
+    label {
+        color: #333;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    select,
+    textarea {
+        background-color: #ffffff;
+        border-color: #ccc;
+    }
+    
+    input[type="submit"] {
+        background-color: #ce2727;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #ce2727;
+    }
+    
+    .checkbox-label {
+        color: #333;
+    }
+    .masculino{
+        font-size: 18px;
+        display: inline-block;
+    }
+    .femenino{
+        font-size: 18px;
+        display: inline-block;
+    }
+    </style>
+    </head>
+            <style>
+            .videomatricula {
+                width: 1000px;
+                height: 600px;
+                border: #19245f;
+                border-style: double;
+            } 
+            </style>
+            <center><video class="videomatricula" src="Video idec/video2025.mp4" controls loop preload="metadata"> </video></center>
+
+    <body>
+        <div class="fondotit-act" >
+            <center><h1 class="titulo-cv" >FORMULARIO DE REGISTRO</h1></center>
+        </div>
+    <div class="container1">
+        <form action="https://formsubmit.co/hgaitan971@gmail.com" method="post">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+            
+            <label>Género:</label><br>
+            <label class="masculino" for="genero_masculino">Masculino</label>
+            <input class="masculino" type="radio" id="genero_masculino" name="genero" value="masculino">
+            <label class="femenino" for="genero_femenino">Femenino</label>
+            <input class="femenino" type="radio" id="genero_femenino" name="genero" value="femenino">
+            
+            <label for="direccion">Dirección:</label>
+            <textarea id="direccion" name="direccion" rows="4" required></textarea>
+            
+            <label for="telefono">Número de teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="grado_academico">Grado en el que desea matricular (en caso de ser una carrera seleccione ninguna)</label>
+            <select id="programa_interes" name="Grado_interes" required>
+                <option value="">Seleccione...</option>
+                <option value="Ninguna">Ninguna</option>
+                <option value="7mo_grado">7mo Grado</option>
+                <option value="8vo_grado">8vo_grado</option>
+                <option value="9no_grado">9no</option>
+            </select>
+            
+            
+            <label for="programa_interes">Carrera en la que desea matricular (en caso de ser un grado selecciones ninguna)</label>
+            <select id="programa_interes" name="programa_interes" required>
+                <option value="">Seleccione...</option>
+                <option value="Ninguna">Ninguna</option>
+                <option value="btp_informatica">BTP en Informática</option>
+                <option value="administracion_empresas">BTP en Administración de Empresas</option>
+                <option value="btpcontabilidad_finanzas">BTP en Contabilidad y Finanzas</option>
+                <option value="bch">BCH</option>
+            </select>
+            
+            <div class="checkbox-container">
+                <input type="checkbox" id="consentimiento" name="consentimiento" required>
+                <label for="consentimiento" class="checkbox-label">Acepto los términos y condiciones</label>
+            </div>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    </body>
+</div>
+<style>
+
+    .container {
+        display: flex;
+        width: 80%;
+        max-width: 100%; /* Máximo ancho del contenedor */
+        height: 80%; /* Altura del contenedor */
+        border-radius: 8px; /* Bordes redondeados */
+        overflow: hidden; /* Oculta cualquier desbordamiento del contenido */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+        background-color: rgb(215, 216, 212); /* Fondo blanco para contraste */
+    }
+
+    .map {
+        flex: 2; /* Ancho mayor para el mapa */
+        border-right: 2px solid rgb(44, 44, 118); /* Borde azul a la derecha */
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 100%; /* Altura completa del contenedor del mapa */
+        border: none; /* Sin borde */
+    }
+
+    .info {
+        flex: 1;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column; /* Coloca la información y la imagen en columna */
+        justify-content: space-between; /* Espacia el contenido para que la imagen esté al final */
+    }
+
+    .info h1 {
+        margin-top: 0;
+    }
+
+    .info p {
+        margin: 10px 0;
+    }
+
+    .info a {
+        color: rgb(44, 44, 118); /* Color del enlace */
+        text-decoration: none; /* Quita el subrayado del enlace */
+    }
+
+    .info a:hover {
+        text-decoration: underline; /* Subrayado al pasar el ratón */
+    }
+
+    .info img {
+        width: 100%; /* Ancho completo del contenedor de información */
+        height: auto; /* Mantiene la proporción de la imagen */
+        margin-top: 10px; /* Espacio encima de la imagen */
+        border: 2px solid rgb(44, 44, 118); /* Borde azul para la imagen */
+        border-radius: 8px; /* Bordes redondeados */
+    }
+</style>
+
+    <div class="container">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61511.89866891272!2d-88.0986728513672!3d15.511644200000022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f665b4612c1fe11%3A0xc6fefe25c7da3cb9!2sInstituto%20Evang%C3%A9lico%20Centroamericano!5e0!3m2!1ses!2shn!4v1722435162597!5m2!1ses!2shn">
+
+            </iframe>
+        </div>
+        <div class="info">
+            <div>
+                <h1>Contactanos</h1>
+                <p>Entre 6 y 7 calle, 2 avenida NE</p>
+                <p>San Pedro Sula, Cortes, 21101</p>
+                <p>Honduras</p>
+                <p>Teléfono: (504) 9920-8435</p>
+                <p>Email: <a href="idechn@hotmail.com">idechn@hotmail.com</a></p>
+            </div>
+            <img src="img idec/IDEC2.png" alt="Imagen de Ejemplo">
+        </div>
+    </div>
+
+    <style>
+    .pie-pagina{
+    width: 100%;
+    overflow: hidden;
+	background:#08295d;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+    }
+    .pie-pagina:hover{
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+    }
+    .pie-pagina .grupo-1{
+        height: auto;
+    }
+    .pie-pagina .grupo-1 .box h2{
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 3%;
+        font-size: 30px;
+    }
+    .pie-pagina .grupo-1 .box p{
+        color: #fff;
+        margin-left: 7%;
+        display: inline-block;
+        font-size: 26px;
+    }
+    .pie-pagina .grupo-2{
+    font-size: 25px;
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0px 1px 10px rgb(44, 44, 118);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+
+    </style>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <h2>AUTORES:</h2>
+                <p>Héctor Gaitán</p>
+                <p>Débora Bonilla</p>
+                <p>Ani Mejía</p>
+                <p>Daniel Almendarez</p>
+                <p>Janary Dubón</p>
+                <p>Kevin Guillen</p>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>IDEC | Formando Generaciones con la mente de Cristo</b></small>
+            <small>&copy;  <p>Todos los Derechos Reservados</p></small>
+
+        </div>
+    </footer>
+
+</body>
+</html>

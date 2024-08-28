@@ -1,0 +1,145 @@
+.body-principal {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    border: 10px double rgb(44, 44, 118);
+    
+}
+nav {
+    background-color: #08295d;
+    height: 100%;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 500px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item > a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #08295d;
+    transition: background-color 0.3s;
+}
+
+.menu-item > a:hover {
+    background-color: #555;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: opacity 1s ease;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #444444;
+    transition: background-color 0.3s;
+}
+
+.submenu li a:hover {
+    background-color: #666;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+    opacity: 1;
+}
+.Imagenes{
+    width: 1500px;
+    transition: 3s;
+}
+
+.mision-vision{
+    margin: 90px;
+}
+.subtitulo h2 { 
+    text-align: left;
+}
+.informacion-carreras .subs-datos{
+    font-size: 30px;
+}
+.fondotit-act{
+    background-color: #08295d;
+    color: aliceblue;
+}
+.seccion-logo{
+    border: #444;
+    border-style: double;
+    display: flex;
+    position: none;
+    height: 100px;
+}
+.logo-idec{
+    width: 396px;
+    height: 100px;
+    margin-left: 100px;
+    position: absolute;
+}
+.formando-gen{
+    display: block;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 34%;
+    text-transform: uppercase;
+}
+.pie-pagina{
+    background: #08295d ;
+}
+.containerb {
+    max-width: 1200 px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
+    padding: 100px 0;
+}
+.box img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.box:nth-child(1){
+grid-column-start: span 2;
+}
+.box:nth-child(4){
+    grid-column-start: span 2;
+    }
+    @media(max-width:991px){
+        .containerb{
+            padding: 30px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .box:nth-child(1){
+            grid-column-start: span 1;
+        }
+        .box:nth-child(4){
+            grid-column-start: span 1;
+        }
+    }

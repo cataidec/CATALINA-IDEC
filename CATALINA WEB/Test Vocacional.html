@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="titulo">Test Vocacional</title>
+</head>
+<body>
+    <header style="background-color:#1e3799">
+        <div style="font-size:1.5rem" class="was"><H1 id="logo"><span style="color:whitesmoke;"> TEST VOCACIONAL</span><img class="log" src="imagenes/CATA LOGO.png" height="110px" width="200px"></H1></div>
+        
+    </header>
+    <div style="background-image:jpg('imagenes/logo de idec.jpg')">
+    <ul class="menu" >
+        <li><a href="http://127.0.0.1:5500/Idec%20y%20cata.html">VOLVER AL MENU</a></li>
+        <li><a href="http://127.0.0.1:5500/CATALINA%20WEB/Pagina%20Principal.html">INICIO</a></li>
+
+        <li class="Quien"><a href="#">¿QUIENES SOMOS?</a>
+        <ul class="QS">
+            <li><a href="http://127.0.0.1:5500/CATALINA%20WEB/historia.html">Historia Catalina Landis</li></a>
+            <li><a href="http://127.0.0.1:5500/CATALINA%20WEB/Mision%20y%20Vision.html">Mision y Vision</li></a>
+            <li><a href="http://127.0.0.1:5500/CATALINA%20WEB/Reglamento.html">Reglamento</li></a>
+        </ul>
+        </li>
+        <li><a href="#">ACTIVIDADES</a>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/CATALINA%20WEB/Campamento.html">Campamento</li></a>
+                <li><a href="http://127.0.0.1:5500/CATALINA%20WEB/Aniversario.html">Aniversario</li></a>
+                <li><a href="http://127.0.0.1:5500/CATALINA%20WEB/Devocionales.html">Devocionales</li></a>
+            </ul>
+        </li>
+        <li><a href="http://127.0.0.1:5500/CATALINA%20WEB/Galeria.html">GALERIA</a></li>
+        <li><a href="http://127.0.0.1:5500/CATALINA%20WEB/Test%20Vocacional.html">TEST VOCACIONAL</a></li>
+        </li>
+    </ul>
+    
+    </div>
+<style>
+    body {
+        
+        margin: 0px;
+    }
+    .question {
+        margin: 10px 0;
+    }
+    .question label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .result {
+        margin-top: 0px;
+    }
+    .form{
+        margin: 20px;
+        font-family: Arial, sans-serif;
+    }
+.menu{
+
+list-style:none;
+background-color:#1e3799;
+padding: 20px;
+color:rgb(77, 77, 77);
+}
+
+.menu li {
+position: relative;
+display: inline-block;
+}
+
+.menu li:hover ul {
+display: block;
+}
+
+.menu ul {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color:rgb(255, 255, 255);
+}
+
+.menu ul li a {
+display: block;
+padding: 10px;
+text-decoration: none;
+color:black;
+}
+
+.menu ul li a:hover {
+background-color:#1e3799;
+}
+
+.menu li a {
+text-decoration: none;
+padding: 10px;
+
+}
+a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.was {
+  text-align:center;
+  margin-left: 15%;
+}
+.log {
+float:right;
+
+}
+</style>
+<div class="form">
+<h1>Formulario Vocacional</h1>
+    <form id="vocational-form">
+        <div class="question">
+            <label><h2>1. ¿Qué tipo de actividades disfrutas más?</h2></label>
+            <input type="radio" name="q1" value="informatica:1" id="q1a">  Resolver problemas matemáticos y lógicos.<label for="q1a"></label><br>
+            <input type="radio" name="q1" value="contabilidad:1" id="q1b">  Manejar cuentas y presupuestos.<label for="q1b"></label><br>
+            <input type="radio" name="q1" value="administracion:1" id="q1c">  Dirigir proyectos y liderar equipos.<label for="q1c"></label><br>
+            <input type="radio" name="q1" value="bch:1" id="q1d">  Leer, escribir y analizar textos.<label for="q1d"></label>
+        </div>
+        
+        <div class="question">
+            <label><h2>2. ¿Qué tipo de trabajo te gustaría tener en el futuro?</h2></label>
+            <input type="radio" name="q2" value="informatica:3" id="q2a">  Trabajar en el desarrollo de software y tecnología.<label for="q2a"></label><br>
+            <input type="radio" name="q2" value="contabilidad:3" id="q2b">  Controlar y auditar las finanzas de una empresa.<label for="q2b"></label><br>
+            <input type="radio" name="q2" value="administracion:3" id="q2c">  Gestionar y organizar operaciones empresariales.<label for="q2c"></label><br>
+            <input type="radio" name="q2" value="bch:3" id="q2d">  Investigar y analizar datos en ciencias humanas.<label for="q2d"></label>
+        </div>
+
+        <div class="question">
+            <label><h2>3. ¿Cuál es tu materia favorita en la escuela?</h2></label>
+            <input type="radio" name="q3" value="informatica:2" id="q3a">  Matemáticas.<label for="q3a"></label><br>
+            <input type="radio" name="q3" value="contabilidad:2" id="q3b">  Economía.<label for="q3b"></label><br>
+            <input type="radio" name="q3" value="administracion:2" id="q3c">  Estudios Sociales.<label for="q3c"></label><br>
+            <input type="radio" name="q3" value="bch:2" id="q3d">  Lengua y Literatura.<label for="q3d"></label>
+        </div>
+
+        <div class="question">
+            <label><h2>4. ¿Qué habilidad consideras que tienes más desarrollada?</h2></label>
+            <input type="radio" name="q4" value="informatica:3" id="q4a">  Programar y entender sistemas informáticos.<label for="q4a"></label><br>
+            <input type="radio" name="q4" value="contabilidad:3" id="q4b">  Realizar cálculos financieros precisos.<label for="q4b"></label><br>
+            <input type="radio" name="q4" value="administracion:3" id="q4c">  Tomar decisiones estratégicas y manejar personas.<label for="q4c"></label><br>
+            <input type="radio" name="q4" value="bch:3" id="q4d">  Expresar ideas de manera clara y creativa.<label for="q4d"></label>
+        </div>
+
+        <div class="question">
+            <label><h2>5. ¿Qué aspecto de tu vida te resulta más satisfactorio?</h2></label>
+            <input type="radio" name="q5" value="informatica:2" id="q5a">  Resolver desafíos tecnológicos.<label for="q5a"></label><br>
+            <input type="radio" name="q5" value="contabilidad:2" id="q5b">  Manejar y mejorar las finanzas.<label for="q5b"></label><br>
+            <input type="radio" name="q5" value="administracion:2" id="q5c">  Ver el éxito de tus estrategias y liderar.<label for="q5c"></label><br>
+            <input type="radio" name="q5" value="bch:2" id="q5d">  Crear y comunicar ideas a otros.<label for="q5d"></label>
+        </div>
+
+        <div class="question">
+            <label><h2>6. ¿Qué tipo de problemas te gusta resolver?</h2></label>
+            <input type="radio" name="q6" value="informatica:2" id="q6a">  Cómo optimizar un algoritmo o solucionar errores de software.<label for="q6a"></label><br>
+            <input type="radio" name="q6" value="contabilidad:2" id="q6b"> Cómo asegurar la precisión de los informes financieros.<label for="q6b"></label><br>
+            <input type="radio" name="q6" value="administracion:2" id="q6c">  Cómo mejorar la eficiencia y la rentabilidad de una empresa.<label for="q6c"></label><br>
+            <input type="radio" name="q6" value="bch:2" id="q6d"> Cómo entender mejor el comportamiento humano y la sociedad..<label for="q6d"></label>
+        </div>
+        <div class="question">
+            <label><h2>7. ¿Qué aspecto te atrae más de una carrera?</h2></label>
+            <input type="radio" name="q7" value="informatica:2" id="q7a">  La posibilidad de innovar tecnológicamente y resolver problemas técnicos.<label for="q7a"></label><br>
+            <input type="radio" name="q7" value="contabilidad:2" id="q7b">  La oportunidad de liderar y tomar decisiones importantes en las finanzas.<label for="q7b"></label><br>
+            <input type="radio" name="q7" value="administracion:2" id="q7c">  La precisión y responsabilidad de llevar las finanzas de una organización.<label for="q7c"></label><br>
+            <input type="radio" name="q7" value="bch:2" id="q7d"> La exploración de ideas y la comprensión de contextos culturales y sociales.<label for="q7d"></label>
+        </div>
+        <div class="question">
+            <label><h2>8. ¿Qué tipo de ambiente de trabajo prefieres?</h2></label>
+            <input type="radio" name="q8" value="informatica:2" id="q8a">  Un laboratorio de informática o una empresa tecnológica.<label for="q8a"></label><br>
+            <input type="radio" name="q8" value="contabilidad:2" id="q8b">  Una oficina tranquila donde puedas concentrarte en números.<label for="q8b"></label><br>
+            <input type="radio" name="q8" value="administracion:2" id="q8c">  Un entorno empresarial dinámico y variado.<label for="q8c"></label><br>
+            <input type="radio" name="q8" value="bch:2" id="q8d"> Un ambiente académico o cultural donde puedas explorar ideas.<label for="q8d"></label>
+        </div>
+        <div class="question">
+            <label><h2>9. ¿Cómo te sientes al trabajar con números y datos?</h2></label>
+            <input type="radio" name="q9" value="informatica:2" id="q9a">  Es interesante, especialmente cuando implica análisis de datos.<label for="q9a"></label><br>
+            <input type="radio" name="q9" value="contabilidad:2" id="q9b">   Me encanta, disfruto trabajando con números y datos detallados.<label for="q9b"></label><br>
+            <input type="radio" name="q9" value="administracion:2" id="q9c">   Es parte de lo que hago, pero prefiero el aspecto de gestión.<label for="q9c"></label><br>
+            <input type="radio" name="q9" value="bch:2" id="q9d"> No es lo mío, prefiero trabajar con ideas y conceptos.<label for="q9d"></label>
+        </div>
+        <div class="question">
+            <label><h2>10. ¿Qué te motiva más en una carrera profesional?</h2></label>
+            <input type="radio" name="q10" value="informatica:2" id="q10a">  Innovar y crear nuevas tecnologías.<label for="q10a"></label><br>
+            <input type="radio" name="q10" value="contabilidad:2" id="q10b">   Asegurar la precisión y la responsabilidad financiera.<label for="q10b"></label><br>
+            <input type="radio" name="q10" value="administracion:2" id="q10c">   Tener la oportunidad de liderar y gestionar una empresa.<label for="q10c"></label><br>
+            <input type="radio" name="q10" value="bch:2" id="q10d">  Comprender y contribuir al conocimiento humano y social.<label for="q10d"></label>
+        </div>
+        <div class="question">
+            <label><h2>11. ¿Te ves trabajando en una empresa internacional o multinacional?</h2></label>
+            <input type="radio" name="q11" value="informatica:2" id="q11a">  Sí, especialmente en el área de tecnología.<label for="q11a"></label><br>
+            <input type="radio" name="q11" value="contabilidad:2" id="q11b">  Sí, en el área de finanzas o contabilidad.<label for="q11b"></label><br>
+            <input type="radio" name="q11" value="administracion:2" id="q11c">   Sí, me gustaría trabajar en una empresa global.<label for="q11c"></label><br>
+            <input type="radio" name="q11" value="bch:2" id="q11d">  No, prefiero roles más centrados en investigación y análisis social.<label for="q11d"></label>
+        </div>
+        <div class="question">
+            <label><h2>12. ¿Qué te motiva más en un trabajo?</h2></label>
+            <input type="radio" name="q12" value="informatica:2" id="q12a">   Crear y desarrollar software o sistemas.<label for="q12a"></label><br>
+            <input type="radio" name="q12" value="contabilidad:2" id="q12b">  Analizar y gestionar la información financiera.<label for="q12b"></label><br>
+            <input type="radio" name="q12" value="administracion:2" id="q12c">   Gestionar proyectos y liderar equipos.<label for="q12c"></label><br>
+            <input type="radio" name="q12" value="bch:2" id="q12d">  Investigar y entender problemas sociales y culturales.<label for="q12d"></label>
+        </div>
+        <div class="question">
+            <label><h2>13. ¿Cómo prefieres aprender?</h2></label>
+            <input type="radio" name="q13" value="informatica:2" id="q13a">   A través de la práctica y experimentación con tecnología.<label for="q13a"></label><br>
+            <input type="radio" name="q13" value="contabilidad:2" id="q13b">  A través de ejercicios de contabilidad y análisis financiero.<label for="q13b"></label><br>
+            <input type="radio" name="q13" value="administracion:2" id="q13c">  A través de casos prácticos y ejemplos empresariales.<label for="q13c"></label><br>
+            <input type="radio" name="q13" value="bch:2" id="q13d">  A través de lecturas y discusiones sobre temas sociales.<label for="q13d"></label>
+        </div>
+        <div class="question">
+            <label><h2>14. ¿Cual tendencia te gusta estar al dia?</h2></label>
+            <input type="radio" name="q14" value="informatica:2" id="q14a">   me encanta estar al día con las últimas innovaciones tecnológicas.<label for="q14a"></label><br>
+            <input type="radio" name="q14" value="contabilidad:2" id="q14b"> en las finanzas y la contabilidad.<label for="q14b"></label><br>
+            <input type="radio" name="q14" value="administracion:2" id="q14c">  en las estrategias empresariales.<label for="q14c"></label><br>
+            <input type="radio" name="q14" value="bch:2" id="q14d">   Me interesa más estar al día con las teorías y estudios sociales.<label for="q14d"></label>
+        </div>
+        <div class="question">
+            <label><h2>15. ¿Qué tipo de lectura disfrutas más?</h2></label>
+            <input type="radio" name="q15" value="informatica:2" id="q15a">   Manuales y artículos sobre programación y tecnología.<label for="q15a"></label><br>
+            <input type="radio" name="q15" value="contabilidad:2" id="q15b"> Textos sobre contabilidad y finanzas.<label for="q15b"></label><br>
+            <input type="radio" name="q15" value="administracion:2" id="q15c">   Libros sobre negocios y liderazgo.<label for="q15c"></label><br>
+            <input type="radio" name="q15" value="bch:2" id="q15d">   Libros sobre historia, sociología y filosofía.<label for="q15d"></label>
+        </div>
+
+
+        <br>
+        </br>
+
+        <button type="button" onclick="calculateResults()">Calcular Resultados</button>
+    </form>
+
+    <div id="results" class="result"></div>
+</div>
+
+    <script>
+        function calculateResults() {
+            // Obtener todos los valores de las respuestas seleccionadas
+            const answers = document.querySelectorAll('input[type="radio"]:checked');
+            
+            // Inicializar puntajes
+            let scores = {
+                informatica: 0,
+                contabilidad: 0,
+                administracion: 0,
+                bch: 0
+            };
+
+            // Sumar los puntos correspondientes
+            answers.forEach(answer => {
+                const [career, points] = answer.value.split(':');
+                scores[career] += parseInt(points);
+            });
+
+            // Calcular el total de puntos
+            const totalPoints = Object.values(scores).reduce((a, b) => a + b, 0);
+            
+            if (totalPoints === 0) {
+                document.getElementById('results').innerText = "Por favor, responde todas las preguntas.";
+                return;
+            }
+
+            // Calcular porcentajes
+            const percentages = {};
+            for (const career in scores) {
+                percentages[career] = ((scores[career] / totalPoints) * 100).toFixed(2);
+            }
+
+            // Mostrar resultados
+            let resultsHtml = "<h2>Resultados</h2>";
+            for (const career in percentages) {
+                resultsHtml += `<p>${capitalize(career)}: ${percentages[career]}%</p>`;
+            }
+
+            document.getElementById('results').innerHTML = resultsHtml;
+        }
+
+        function capitalize(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+    </script>
+</body>
+<style>
+    .pie-pagina{
+    width: 100%;
+    overflow: hidden;
+    background:#0c499ee1;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease-out;
+    }
+    .pie-pagina:hover{
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+    }
+    .pie-pagina .grupo-1 .box h2{
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .pie-pagina .grupo-1 .box p{
+        color: #fff;
+        margin-left: 5%;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .pie-pagina .grupo-2{
+    background-color: #1e3799;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0px 1px 10px rgba(129, 126, 126, 0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+}
+
+    </style>
+    <footer class="pie-pagina">
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>Catalina Landis | Forming Generations with the mind of Christ</b></small>
+            <small>&copy;  <p>Todos los Derechos Reservados</p></small>
+
+        </div>
+    </footer>
+</body>
